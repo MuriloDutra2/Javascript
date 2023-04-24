@@ -53,3 +53,15 @@ if(5 >= 22) {
 } else {
     document.write('Entrou no bloco else (falso) <br> ')
 }
+
+//teste da media do aluno
+
+var nota = prompt('Qual é a nota do aluno?')
+var media = 7
+
+
+if(nota >= media) {
+    document.write('aprovado <br>')
+} else {
+    document.write('reprovado <br> ')
+}
