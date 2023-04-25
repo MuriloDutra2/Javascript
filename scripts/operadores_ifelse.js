@@ -65,3 +65,4 @@ if(nota >= media) {
 } else {
     document.write('reprovado <br> ')
 }
+//123455678890
