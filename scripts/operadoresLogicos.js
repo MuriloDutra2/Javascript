@@ -38,3 +38,5 @@ if(nota >= media && faltas <= faltas_maximas ) {
 } else {
     document.write('reprovado <br> ')
 }
+
+//som descarregado
