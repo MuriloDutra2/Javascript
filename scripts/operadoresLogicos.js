@@ -39,4 +39,4 @@ if(nota >= media && faltas <= faltas_maximas ) {
     document.write('reprovado <br> ')
 }
 
-//som descarregado
+//som descarregado11233
