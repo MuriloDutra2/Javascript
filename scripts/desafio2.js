@@ -18,6 +18,8 @@ if(idade >= 60) {
     document.write('Você é um idoso')
 } 
 
+//workday
+
 //feito pelo professor
 /*
 var idade = prompt('Digite a idade');
