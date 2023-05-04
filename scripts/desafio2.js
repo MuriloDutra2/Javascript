@@ -18,7 +18,7 @@ if(idade >= 60) {
     document.write('Você é um idoso')
 } 
 
-//workday
+//workday22
 
 //feito pelo professor
 /*
