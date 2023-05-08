@@ -1,3 +1,5 @@
+//trabalho escolar
+
 var num1 =prompt('Digite o valor de num1')
 
 var num2 =prompt('Digite o valor de num2')
