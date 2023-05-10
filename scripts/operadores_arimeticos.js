@@ -39,3 +39,6 @@ teste += 'jorge'
 
 
 document.write(teste)
+
+
+//caixa de som sem bateria
