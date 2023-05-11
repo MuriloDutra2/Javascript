@@ -31,7 +31,7 @@ document.write('o decremento de:' + num1 +  'é ' + (--num1)+ '<br />')
 //teste *= 5
 //teste /= 5
 //teste %= 3
-
+/*
 var teste = 'ola '
 
 teste += 'jorge'
@@ -40,8 +40,10 @@ teste += 'jorge'
 
 document.write(teste)
 
-
+*/
 //caixa de som sem bateria
 
 
 //garantia
+
+document.write((11 + 5 - 5 * 2) / 2 )
