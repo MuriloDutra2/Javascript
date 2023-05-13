@@ -7,3 +7,5 @@ altura = parseFloat (altura)
 altura /= 100
 
 document.write(altura)
+
+//viagem 
