@@ -17,7 +17,7 @@ function calcularAreaTerreno (largura, comprimento) {
     
     }
 */
-
+//talvez de noite
 function soma(a, b, c) {
     a = a === undefined ? 0 : a 
     b = b === undefined ? 0 : b 
