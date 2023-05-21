@@ -2,4 +2,4 @@ var  exibirSaudacao = function(nome) {
     document.write('Olá ' + nome + ', tudo bem?')
 }
 
-exibirSaudacao('Jorge') // work day
+exibirSaudacao('Jorge') // work day 22
