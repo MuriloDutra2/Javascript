@@ -53,7 +53,7 @@ document.write(milisegundos_entre_datas)
 
 //1 dia tem 24, cada hora tem 60 min, cada minuto tem 60 segundos e cada segundo tem 1000 milisegundos. Então quantos milisegundos existem em um dia?
 
-//workday
+//workday2
 
 document.write('<hr />')
 
