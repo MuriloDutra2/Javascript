@@ -6,7 +6,7 @@ var operacao = prompt('soma ou subtração ?')
 
 var n2 = prompt('insira um segundo numero: ')
 
-n2 = parseInt(n2)
+n2 = parseInt(n2) //ndaskjbda
 
 function calcular (n1, n2 , operacao) {
 if(operacao == 'soma') {
