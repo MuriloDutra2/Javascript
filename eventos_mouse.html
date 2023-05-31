@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos mouse</title>
+</head>
+<body>
+
+  <!--  <div onclick="acao()" style="background: #ccc; height: 150px; width: 150px; "></div>
+    1 clique
+-->
+
+ <!--  <div ondblclick="acao()" style="background: #ccc; height: 150px; width: 150px; "></div>
+    2 cliques
+    -->
+
+  <!--  <div onmouseup="acao()" style="background: #ccc; height: 150px; width: 150px; "></div>
+    segure o mouse e funciona quando solta
+-->
+
+
+   <!-- <div onmouseover="acao()" style="background: #ccc; height: 150px; width: 150px; "></div>
+    apenas o mouse encima do elemento
+-->
+
+   <!-- <div onmouseout="acao()" style="background: #ccc; height: 150px; width: 150px; "></div>
+    assim que o mouse sair do elemento o evento é disparado
+-->
+
+<!--Tambem é possivel jutnar duas em um elemento só-->
+
+    <div onclick="acao()" onmouseout="acao2()" style="background: #ccc; height: 150px; width: 150px; "></div>
+
+    <!-- Caso algo não funcione, consulte a documentação-->
+
+    <script src="scripts/eventos_mouse.js"></script>
+</body>
+</html>
