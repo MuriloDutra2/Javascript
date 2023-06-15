@@ -8,8 +8,15 @@
 </head>
 <body>
     
-    <input type="text">
-    
+    <input onfocus="console.log('teste')" onblur="console.log('perdeu o foco')" type="text" /> 
+
+    <select onchange="console.log('estado foi modificado')">
+        <option >----Selecione----</option>
+        <option value="1"></option>
+        <option value="2"></option>
+        
+    </select>
+
    <script src="scripts/eventos_formularios.js"></script>
 </body>
 </html>
