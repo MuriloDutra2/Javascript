@@ -7,3 +7,5 @@ console.log(document.getElementsByTagName('input'))
 
 console.log(document.getElementsByTagName('nome'))
 
+//
+
