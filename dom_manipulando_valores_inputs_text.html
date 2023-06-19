@@ -6,14 +6,17 @@
     <title>Manipulando></title>
 </head>
 <body>
-<input type="text" placeholder="DIgite um careacter aqui">
+<input type="text" placeholder="DIgite um careacter aqui" onkeyup="distribuiCaracter()"
+id="entrada"
+>
 
 <hr>
 <span>LEtras</span>
-<input type="text">
+<input type="text" disabled="disabled" id="apenas_letras">
 
 <span>Numeros</span>
-<input type="text">
+<input type="text" disabled="disabled"
+id="apenas_numeros">
 
     <script src="scripts/dom_manipulando_valores_inputs_text.js"></script>
 </body>
