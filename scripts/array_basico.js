@@ -21,4 +21,4 @@ console.log(lista_frutas[0])*/
 //e tbm dessa forma
 var lista_frutas = ['banana', 'maça', 'Morango', 'Uva']
 
-console.log(lista_frutas[2])
+console.log(lista_frutas)
