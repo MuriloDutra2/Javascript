@@ -4,7 +4,7 @@ function limpaImput() {
     document.getElementById('input')
     input.value = ''
 }
-
+//
 function recuperaValor () {
     
     var valor = document.getElementById('input').value
