@@ -17,7 +17,7 @@ function getVideo(video) {
     console.log(video[0]['nome'])
 } catch(erro){
     tratarErro(erro)
-    
+    //feroas
     console.log('Agora sim podemos tratar esse erro')
 
     throw new Error('Houve um erro mas não se preocupe, estamos trabalhando nisso agora')
