@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vitoria</title>
+    <title>Pagina inicial</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -21,7 +21,7 @@
             alert('Selecione um nivel para iniciar o jogo')
             return false
         }
-        alert(nivel)
+        window.location.href = "index.html?" + nivel
         
       }
     </script>
@@ -43,8 +43,8 @@
                     <div class="mb-2">
                         <select name="" id="nivel" class="form-control">
                             <option value="">-- Selecione o nivel</option>
-                            <option value="Normal">Normal</option>
-                            <option value="Dificil">Difícil</option>
+                            <option value="normal">Normal</option>
+                            <option value="dificil">Difícil</option>
                             <option value="chucknorris">Chuck Norris</option>
                         </select>
                     </div>
